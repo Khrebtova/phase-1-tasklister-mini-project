@@ -12,6 +12,13 @@ body {
 
 button {
   font-size: 7px;
+  background-color: #ff7e00
+}
+button:hover {
+  box-shadow: 2px 2px 3px ;
+}
+button:active {
+  box-shadow: 1px 1px 3px ;
 }
 
 #main-content {
@@ -30,8 +37,13 @@ button {
 #list {
   margin: 10px;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
+  background: #fcfafc;
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+#submitBtn {
+  font-size: 20px;
+  background-color: #fff457
 }
